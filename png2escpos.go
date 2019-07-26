@@ -28,7 +28,6 @@ func main() {
 func showHelp() {
 	help := `
 
-
 	▄▄▄▄▄▄▄ ▄▄  ▄ ▄▄▄▄▄▄▄ 
 	█ ▄▄▄ █ ▄▀▄ █ █ ▄▄▄ █ 
 	█ ███ █ █▄▄▀  █ ███ █ 
@@ -64,8 +63,6 @@ and then encodes in ESC/POS format.
 			
 			Linux:	./png2escpos <file.png> > socat STDIN TCP4:192.168.1.100:9100
 			macOS:	./png2escpos <file.png> | socat STDIN TCP4:192.168.1.100:9100
-			
-			(you may have to install socat on macOS with brew install socat first)
 		
 Other commands:
 
