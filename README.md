@@ -4,6 +4,8 @@ Quickly convert PNG files to ESC/POS format, for printing on Epson thermal point
 
 This utility removes transparency from image, makes it grayscale and then encodes in ESC/POS format.
 
+Written in pure Go/Golang.
+
 ---
 
 ## Installation
