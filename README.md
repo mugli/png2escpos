@@ -27,7 +27,7 @@ Download binary from [release tab](https://github.com/mugli/png2escpos/releases)
 		Or, if you have a network printer listening at 192.168.1.100:9100
 			you can use socat to forward from stdin to network like this:
 
-			Linux:	./png2escpos <file.png> > socat STDIN TCP4:192.168.1.100:9100
+			Linux:	./png2escpos <file.png> | socat STDIN TCP4:192.168.1.100:9100
 			macOS:	./png2escpos <file.png> | socat STDIN TCP4:192.168.1.100:9100
 
 			(you may have to install socat on macOS with brew install socat first)
